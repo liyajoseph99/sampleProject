@@ -19,7 +19,7 @@ public class LoginTest extends TestBase {
 	LoginPage objLogin;
 	ThreadLocal<ExtentTest> extentTest = TestListner.getTestInstance();
 	
-  @Test(priority = 1,enabled = true,retryAnalyzer = com.sampleProject.Listners.ReTryAnalyzer.class)
+  @Test(priority = 1,enabled = false,retryAnalyzer = com.sampleProject.Listners.ReTryAnalyzer.class)
   public void verifyLoginInvalidUserInvalidPassword() throws IOException {
 	  objLogin=new LoginPage(driver);
 	  String username=ExcelUtilities.getCellStringData(0, 0);
@@ -53,7 +53,7 @@ public class LoginTest extends TestBase {
 	  Assert.assertEquals(objLogin.getHomePageTitle(), Constants.HOMETITLE1);
   }
   
-  @Test(priority = 4,enabled = false)
+  @Test(priority = 4,enabled = true)
   public void verifyLoginValidUserValidPassword() throws IOException {
 	  objLogin=new LoginPage(driver);
 	  String username=ExcelUtilities.getCellStringData(3, 0);
