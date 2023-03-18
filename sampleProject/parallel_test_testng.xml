@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="2" name="ParallelTesting-Test" parallel="tests" >
+	<parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="com.sampleProject.Scripts.LoginTest">
+	  <methods>
+		<include name="verifyLoginInvalidUserInvalidPassword"/>
+		<include name="verifyLoginValidUserValidPassword"/>
+	  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

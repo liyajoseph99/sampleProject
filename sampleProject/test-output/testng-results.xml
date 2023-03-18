@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="10" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34404" started-at="2023-03-14T07:01:07 IST" finished-at="2023-03-14T07:01:42 IST">
+    <groups>
+    </groups>
+    <test name="Testcae_FlightsPageLoading" duration-ms="34404" started-at="2023-03-14T07:01:07 IST" finished-at="2023-03-14T07:01:42 IST">
+      <class name="com.sampleProject.Scripts.LoginTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.sampleProject.Scripts.LoginTest@2893de87]" name="beforeTest" is-config="true" duration-ms="15245" started-at="2023-03-14T07:01:07 IST" finished-at="2023-03-14T07:01:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testBase()[pri:0, instance:com.sampleProject.Scripts.LoginTest@2893de87]" name="testBase" duration-ms="27" started-at="2023-03-14T07:01:23 IST" finished-at="2023-03-14T07:01:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBase -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sampleProject.Scripts.LoginTest@2893de87]" name="afterMethod" is-config="true" duration-ms="1812" started-at="2023-03-14T07:01:23 IST" finished-at="2023-03-14T07:01:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBase status=SUCCESS method=TestBase.testBase()[pri:0, instance:com.sampleProject.Scripts.LoginTest@2893de87] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyLoginInvalidUserInvalidPassword()[pri:1, instance:com.sampleProject.Scripts.LoginTest@2893de87]" name="verifyLoginInvalidUserInvalidPassword" duration-ms="8616" started-at="2023-03-14T07:01:25 IST" finished-at="2023-03-14T07:01:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginInvalidUserInvalidPassword -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sampleProject.Scripts.LoginTest@2893de87]" name="afterMethod" is-config="true" duration-ms="658" started-at="2023-03-14T07:01:33 IST" finished-at="2023-03-14T07:01:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginInvalidUserInvalidPassword status=SUCCESS method=LoginTest.verifyLoginInvalidUserInvalidPassword()[pri:1, instance:com.sampleProject.Scripts.LoginTest@2893de87] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.sampleProject.Scripts.LoginTest@2893de87]" name="afterTest" is-config="true" duration-ms="0" started-at="2023-03-14T07:01:42 IST" finished-at="2023-03-14T07:01:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.sampleProject.Scripts.LoginTest -->
+      <class name="com.sampleProject.Scripts.RegisterTest">
+        <test-method status="PASS" signature="testBase()[pri:0, instance:com.sampleProject.Scripts.RegisterTest@212bf671]" name="testBase" duration-ms="4" started-at="2023-03-14T07:01:34 IST" finished-at="2023-03-14T07:01:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBase -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sampleProject.Scripts.RegisterTest@212bf671]" name="afterMethod" is-config="true" duration-ms="237" started-at="2023-03-14T07:01:34 IST" finished-at="2023-03-14T07:01:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBase status=SUCCESS method=TestBase.testBase()[pri:0, instance:com.sampleProject.Scripts.RegisterTest@212bf671] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyLoadingRegisterPage()[pri:8, instance:com.sampleProject.Scripts.RegisterTest@212bf671]" name="verifyLoadingRegisterPage" duration-ms="2391" started-at="2023-03-14T07:01:34 IST" finished-at="2023-03-14T07:01:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoadingRegisterPage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sampleProject.Scripts.RegisterTest@212bf671]" name="afterMethod" is-config="true" duration-ms="603" started-at="2023-03-14T07:01:37 IST" finished-at="2023-03-14T07:01:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoadingRegisterPage status=SUCCESS method=RegisterTest.verifyLoadingRegisterPage()[pri:8, instance:com.sampleProject.Scripts.RegisterTest@212bf671] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="fillingTheFields()[pri:9, instance:com.sampleProject.Scripts.RegisterTest@212bf671]" name="fillingTheFields" duration-ms="4281" started-at="2023-03-14T07:01:37 IST" finished-at="2023-03-14T07:01:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillingTheFields -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sampleProject.Scripts.RegisterTest@212bf671]" name="afterMethod" is-config="true" duration-ms="307" started-at="2023-03-14T07:01:41 IST" finished-at="2023-03-14T07:01:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fillingTheFields status=SUCCESS method=RegisterTest.fillingTheFields()[pri:9, instance:com.sampleProject.Scripts.RegisterTest@212bf671] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.sampleProject.Scripts.RegisterTest -->
+    </test> <!-- Testcae_FlightsPageLoading -->
+  </suite> <!-- Suite -->
+</testng-results>
